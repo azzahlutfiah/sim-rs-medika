@@ -1,0 +1,6 @@
+{
+  "name": "SIM RS",
+  "description": "Sistem Informasi Manajemen Rumah Sakit (SIM RS) Multiplatform berbasis Web dengan integrasi database MySQL.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

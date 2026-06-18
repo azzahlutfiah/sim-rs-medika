@@ -1,0 +1,255 @@
+{
+  "doctors": [
+    {
+      "id": 1,
+      "name": "dr. Ahmad Pratama, Sp.PD",
+      "specialization": "Penyakit Dalam",
+      "status": "Aktif",
+      "contact": "08123456789",
+      "gender": "Laki-laki",
+      "room": "Poli A01"
+    },
+    {
+      "id": 2,
+      "name": "dr. Siti Rahma, Sp.A",
+      "specialization": "Spesialis Anak",
+      "status": "Aktif",
+      "contact": "08123456790",
+      "gender": "Perempuan",
+      "room": "Poli B02"
+    },
+    {
+      "id": 3,
+      "name": "dr. Budi Santoso, Sp.JP",
+      "specialization": "Jantung dan Pembuluh Darah",
+      "status": "Aktif",
+      "contact": "08123456791",
+      "gender": "Laki-laki",
+      "room": "Poli C05"
+    },
+    {
+      "id": 4,
+      "name": "dr. Maria Angela, Sp.OG",
+      "specialization": "Kandungan & Kebidanan",
+      "status": "Cuti",
+      "contact": "08123456792",
+      "gender": "Perempuan",
+      "room": "Poli D01"
+    },
+    {
+      "id": 5,
+      "name": "dr. Hendra Wijaya, Sp.M",
+      "specialization": "Spesialis Mata",
+      "status": "Aktif",
+      "contact": "08123456793",
+      "gender": "Laki-laki",
+      "room": "Poli E03"
+    }
+  ],
+  "patients": [
+    {
+      "id": 1,
+      "nik": "3171012345670001",
+      "rekam_medis_number": "RM-000001",
+      "name": "Budi Purwanto",
+      "birth_date": "1985-05-12",
+      "gender": "Laki-laki",
+      "address": "Jl. Merdeka No. 45, Jakarta",
+      "phone": "08561122334",
+      "bpjs_number": "0001234567890"
+    },
+    {
+      "id": 2,
+      "nik": "3171012345670002",
+      "rekam_medis_number": "RM-000002",
+      "name": "Dewi Lestari",
+      "birth_date": "1992-09-22",
+      "gender": "Perempuan",
+      "address": "Sleman Residence Block B, Yogyakarta",
+      "phone": "08561122335",
+      "bpjs_number": ""
+    },
+    {
+      "id": 3,
+      "nik": "3171012345670003",
+      "rekam_medis_number": "RM-000003",
+      "name": "Ade Kartika",
+      "birth_date": "2015-01-08",
+      "gender": "Perempuan",
+      "address": "Jl. Gajah Mada 12, Semarang",
+      "phone": "08561122336",
+      "bpjs_number": "0001234567892"
+    },
+    {
+      "id": 4,
+      "nik": "3171012345670004",
+      "rekam_medis_number": "RM-000004",
+      "name": "Fajar Ramadhan",
+      "birth_date": "2001-11-30",
+      "gender": "Laki-laki",
+      "address": "Kp. Melati RT 03/05, Bandung",
+      "phone": "08561122337",
+      "bpjs_number": ""
+    }
+  ],
+  "appointments": [
+    {
+      "id": 1,
+      "patient_id": 1,
+      "doctor_id": 1,
+      "appointment_date": "2026-06-17",
+      "appointment_time": "09:00 - 10:00",
+      "queue_number": 1,
+      "status": "Selesai",
+      "complaint": "Nyeri lambung kronis sejak 3 hari lalu"
+    },
+    {
+      "id": 2,
+      "patient_id": 2,
+      "doctor_id": 3,
+      "appointment_date": "2026-06-17",
+      "appointment_time": "10:00 - 11:00",
+      "queue_number": 1,
+      "status": "Diperiksa",
+      "complaint": "Dada sering berdebar kencang saat istirahat"
+    },
+    {
+      "id": 3,
+      "patient_id": 3,
+      "doctor_id": 2,
+      "appointment_date": "2026-06-17",
+      "appointment_time": "11:00 - 12:00",
+      "queue_number": 1,
+      "status": "Menunggu",
+      "complaint": "Anak demam tinggi disertai batuk pilek"
+    },
+    {
+      "id": 4,
+      "patient_id": 4,
+      "doctor_id": 5,
+      "appointment_date": "2026-06-17",
+      "appointment_time": "13:00 - 14:00",
+      "queue_number": 1,
+      "status": "Menunggu",
+      "complaint": "Pandangan mengabur di mata kanan setelah terkena debu"
+    }
+  ],
+  "medical_records": [
+    {
+      "id": 1,
+      "patient_id": 1,
+      "doctor_id": 1,
+      "check_date": "2026-06-17",
+      "blood_pressure": "120/80",
+      "heart_rate": 78,
+      "temperature": 36.8,
+      "symptoms": "Nyeri ulu hati, mual, perut kembung, lidah terasa pahit.",
+      "diagnosis": "Dyspepsia Syndrome (Maag)",
+      "prescription": [
+        {
+          "name": "Antasida Doen",
+          "qty": 10,
+          "dosage": "3x1 tablet sebelum makan"
+        },
+        {
+          "name": "Omeprazole 20mg",
+          "qty": 7,
+          "dosage": "1x1 kapsul sebelum makan"
+        }
+      ],
+      "notes": "Edukasi: Kurangi makanan pedas, asam, kafein, dan makan tepat waktu."
+    }
+  ],
+  "medicines": [
+    {
+      "id": 1,
+      "name": "Antasida Doen",
+      "category": "Antasida",
+      "stock": 500,
+      "price": 1500.00,
+      "unit": "Tablet",
+      "code": "OBT-001"
+    },
+    {
+      "id": 2,
+      "name": "Omeprazole 20mg",
+      "category": "Anti-Sekresi",
+      "stock": 320,
+      "price": 5000.00,
+      "unit": "Kapsul",
+      "code": "OBT-002"
+    },
+    {
+      "id": 3,
+      "name": "Amoxicillin 500mg",
+      "category": "Antibiotik",
+      "stock": 450,
+      "price": 2000.00,
+      "unit": "Tablet",
+      "code": "OBT-003"
+    },
+    {
+      "id": 4,
+      "name": "Paracetamol 500mg",
+      "category": "Analgesik/Antipiretik",
+      "stock": 1000,
+      "price": 1200.00,
+      "unit": "Tablet",
+      "code": "OBT-004"
+    },
+    {
+      "id": 5,
+      "name": "Amlodipine 5mg",
+      "category": "Antihipertensi",
+      "stock": 280,
+      "price": 3000.00,
+      "unit": "Tablet",
+      "code": "OBT-005"
+    },
+    {
+      "id": 6,
+      "name": "Captopril 25mg",
+      "category": "Antihipertensi",
+      "stock": 15,
+      "price": 2500.00,
+      "unit": "Tablet",
+      "code": "OBT-006"
+    }
+  ],
+  "billing": [
+    {
+      "id": 1,
+      "patient_id": 1,
+      "invoice_number": "INV-20260617-001",
+      "doctor_fee": 150000.00,
+      "medicine_fee": 50000.00,
+      "facility_fee": 25000.00,
+      "total_amount": 225000.00,
+      "status": "Lunas",
+      "billing_date": "2026-06-17",
+      "payment_method": "Transfer BCA"
+    },
+    {
+      "id": 2,
+      "patient_id": 2,
+      "invoice_number": "INV-20260617-002",
+      "doctor_fee": 200000.00,
+      "medicine_fee": 0.00,
+      "facility_fee": 25000.00,
+      "total_amount": 225000.00,
+      "status": "Belum Lunas",
+      "billing_date": "2026-06-17"
+    },
+    {
+      "id": 3,
+      "patient_id": 3,
+      "invoice_number": "INV-20260617-003",
+      "doctor_fee": 100000.00,
+      "medicine_fee": 50000.00,
+      "facility_fee": 25000.00,
+      "total_amount": 175000.00,
+      "status": "Belum Lunas",
+      "billing_date": "2026-06-17"
+    }
+  ]
+}
